@@ -10,7 +10,7 @@ getjsvariables is written in the native Linux shell language. As a result it can
 
 ```
 git clone https://github.com/kurohost/getjsvariables.git
-cd getjsvariables
+cd getjsvariables/
 chmod +x getjsvariables.sh
 ```
 
@@ -19,5 +19,5 @@ chmod +x getjsvariables.sh
 getjsvariables is a really simple tool to use as it just needs a JavaScript file URL:
 
 ```
-getjsvariables.sh https://www.target-website.com/main.js
+./getjsvariables.sh https://www.target-website.com/main.js
 ```
